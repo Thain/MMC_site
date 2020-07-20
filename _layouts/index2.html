@@ -1,8 +1,8 @@
 ---
-layout: "mark"
+layout: "wrapper"
 ---
 
-<div class="container-fluid markcon" style="background-color:var(--white); height:97vh">
+<div class="container-fluid markcon" style="background-color:var(--white); height:97vh; z-index: 1">
     <div class="row markrow align-items-center justify-content-between" style="height:20vh">{% include menu.html %}</div>
     <div class="row markrow py-4 justify-content-between" style="height:57vh">
         <div class="col-10 offset-1 offset-md-2 align-self-center markcol">
@@ -10,10 +10,11 @@ layout: "mark"
         </div>
     </div>
     <div class="row markrow py-4 justify-content-between" style="height:20vh"><div class="col-xs-2 align-self-end markcol mx-4"><img src="../assets/images/logo-small.png" style="opacity: 0; height: 6vw; min-height: 50px"></div></div>
+    {% include circle.html color="lblue" size="21" top="23" left="9" z="0"%}
 </div>
 
 
-<div class="container-fluid py-3 py-sm-5 markcon" style="background-color:var(--dblue)">
+<div class="container-fluid py-3 py-sm-5 markcon" style="background-color:var(--dorange); position: relative; z-index: 2">
     <div class="row markrow mt-3 mb-4">
         <div class="col-10 offset-1 markcol">
             <h2 style="color:white">The voices fighting for justice, opportunity, and habitability need to be <b>louder</b><span class="big-period" style="color:var(--navy)">.</span></h2>
@@ -34,6 +35,8 @@ layout: "mark"
             <p><a class="w" href="https://www.youtube.com/watch?v=K5le9sYdYkM">More about us.</a></p>
         </div>
     </div>
+    {% include circle.html color="dblue" size="14" top="-10" left="75" z="1"%}
+    {% include circle.html color="navy" size="7" top="20" left="5" z="1"%}
 </div>
 
 
@@ -81,7 +84,4 @@ layout: "mark"
     </div>
 </div>
 
-{% include circle.html color="dorange" size="14" top="40" left="75" z="1"%}
-{% include circle.html color="navy" size="7" top="85" left="5" z="1"%}
-{% include circle.html color="lblue" size="21" top="23" left="9" z="0"%}
 {% include circle.html color="lorange" size="7" top="10" left="60"%}
