@@ -19,6 +19,7 @@ h2 {
 h3 {
   font-family: 'Montserrat-L';
   font-size: 25px;
+  text-align: center;
 }
 p{
   font-family: 'Montserrat-M';
@@ -41,11 +42,26 @@ a.b { color: black; }
   z-index: 1;
 }
 
-h3:hover{
+button {
+  font-family: 'Montserrat-L';
+  font-size: 25px;
+  text-align: center;
+  background-color: inherit;
+  border: none;
+}
+
+button:hover{
   font-family: Montserrat-M;
 }
 
-@media only screen and (max-width: 800px) {
+button:focus{
+  font-family: Montserrat-M;
+  outline: 0;
+  background-color: inherit;
+}
+
+
+@media only screen and (max-width: 1000px) {
   .show-mobile {
     display: block;
   }
@@ -60,7 +76,7 @@ h3:hover{
   }
 }
 
- @media only screen and (min-width: 801px) {
+ @media only screen and (min-width: 1001px) {
   .show-mobile {
     display: none;
   }
