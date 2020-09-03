@@ -23,8 +23,8 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .show-mobile { display: block }
-  .hide-mobile { display: none }
+  .show-mobile { display: none }
+  .hide-mobile { display: block }
   * { font-size: 7px }
 }
 
@@ -48,8 +48,12 @@ h1 { font-size: 5.4em }
 h2 { font-size: 3.2em }
 p { font-size: 3.2em }
 
-h1.header { font-size: 6em; padding-bottom: .6em; padding-top: 1.4em }
-h2.header { font-size: 3.7em; padding-bottom: 8em }
+.header { margin-bottom: 30em; margin-top: 8.2em }
+.header h1 { font-size: 6em; padding-bottom: .6em }
+.header h2 { font-size: 3.7em }
+
+/* h1.header { font-size: 6em; padding-bottom: .6em; margin-top: 1.4em }
+h2.header { font-size: 3.7em; margin-bottom: 8em } */
 
 h1.thumbnail-title { font-size: 3.7em }
 h3.thumbnail-title { font-size: 3em }
