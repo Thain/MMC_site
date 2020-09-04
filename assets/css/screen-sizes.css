@@ -48,7 +48,7 @@ h1 { font-size: 5.4em }
 h2 { font-size: 3.2em }
 p { font-size: 3.2em }
 
-.header { margin-bottom: 30em; margin-top: 8.2em }
+.header { margin-bottom: 40em; margin-top: 8.2em }
 .header h1 { font-size: 6em; padding-bottom: .6em }
 .header h2 { font-size: 3.7em }
 
@@ -63,3 +63,5 @@ h3.thumbnail-title { font-size: 3em }
 #footer-connect { font-size: 5em }
 
 .menubar, #menubold { font-size: 3em }
+
+body { overflow-x: hidden }
